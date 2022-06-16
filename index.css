@@ -1,0 +1,109 @@
+body {
+  /* background-image: images/index1.jpg; */
+  /* background-color: blue; */
+  background-image: url(index1.jpg);
+  /* background-image: url("img_girl.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center ;
+}
+
+.tom{
+    display: inline-block;
+    border: 10px solid #a21717;
+
+    /* here we can assign the value of border/outline to be transparent by giving the transparent value   */
+    /* border: 10px solid rgb(215, 80, 80, 0.5); */    
+    /* outline:10px solid rgba(255, 0, 0, 0.3); */
+    
+    border-radius: 15px;
+    height: 120px;
+    width: 120px;
+    color: #FFB562;
+    font-weight: 900;
+    font-size: 4rem;
+    font-family: 'Arvo', cursive;
+    text-shadow: 3px 0 #dc5050;
+    text-align: center;
+    margin: 10px;
+    /* opacity: 0.5; */
+    box-shadow: 5px 10px 10px 3px  rgba(0, 0, 0, 0.713) ;
+}
+.container{
+    text-align: center;
+    margin: 5% auto;
+
+
+}
+
+H1{
+  color: #EEEEEE;
+  text-shadow: 2px 0 #dc5050;
+  font-size: 4rem;
+  margin: 2% auto 0px;
+  font-family:'Times New Roman', Times, serif;
+  display: inline-block ;
+
+
+}
+
+.a{
+  background-image: url("images/kick.png");
+}
+
+.b{
+  background-image: url("images/crash.png");
+}
+.c{
+  background-image: url(images/snare.png);
+}
+.d{
+  background-image: url(images/tom1.png);
+}
+.e{
+  background-image: url(images/tom2.png);
+}
+.f{
+  background-image: url("images/tom3.png");
+}
+.g{
+  background-image: url("images/tom4.png");
+}
+
+
+h4{
+  color:#f36c43;
+  font-size: 25px;
+  
+}
+
+p{
+  /* background-color: orange; */
+  color: rgb(241, 238, 50);
+  font-size: 18px;
+  /* display: inline-block; */
+  display:block;
+  text-align: right;
+  margin: 15% 15% 0px ;
+}
+
+
+/* a class for the Animation */
+.pressed{
+  box-shadow: 0px 10px 5px 0px #DBEDF3;
+  opacity: 0.5;
+  
+}
+
+.press{
+  color: green;
+}
+
+
+.drumImg{
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+ 
+}
